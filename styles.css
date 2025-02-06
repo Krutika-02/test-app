@@ -1,0 +1,55 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(100% 100% at 50% 0%, #E3F2FD 0%, #BBDEFB 50%, #90CAF9 100%);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.hero {
+    padding: 50px;
+    background: linear-gradient(135deg, #42A5F5, #1E88E5);
+    border-bottom: 3px solid #BBDEFB;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+    margin: 50px auto;
+    width: 90%;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+button {
+    background: linear-gradient(135deg, #64B5F6, #1976D2);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background: linear-gradient(135deg, #42A5F5, #0D47A1);
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: 30px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+    color: white;
+    border-top: 2px solid #BBDEFB;
+}
