@@ -1,4 +1,4 @@
-const openaiApiKey = "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"; 
+const openaiApiKey = "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"; 
 const elevenLabsApiKey = "sk_ce824746b2d8e9ca6aa3fa93e3db778f76c76788773d7de8"; 
 const elevenLabsVoiceId = "JBFqnCBsd6RMkjVDRZzb"; 
 const KNOWLEDGE_BASE = `
